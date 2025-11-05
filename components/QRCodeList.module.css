@@ -1,0 +1,48 @@
+.qrcodeItem {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+.qrcode {
+  width: 82px;
+  height: 82px;
+  cursor: pointer;
+}
+
+.qrCodeItemContent {
+  flex-grow: 1;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.date {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-top: 10px;
+  color: #8a8797;
+}
+
+.link {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.qrcodeList {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  padding: 0;
+  list-style: none;
+}

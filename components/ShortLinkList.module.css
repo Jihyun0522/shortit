@@ -1,0 +1,42 @@
+.shortLinkList {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  padding: 0;
+  list-style: none;
+}
+
+.cardContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.date {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-top: 10px;
+  color: #8a8797;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.link {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.link + .link {
+  margin-top: 10px;
+}

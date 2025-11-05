@@ -1,0 +1,47 @@
+.home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  max-width: 750px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.intro {
+  margin: 25px 0 70px;
+}
+
+.title {
+  margin: 0;
+  font-size: 46px;
+  font-weight: 500;
+}
+
+.description {
+  margin: 0;
+  font-size: 20px;
+}
+
+.form {
+  display: flex;
+  margin: 15px 0;
+}
+
+.input {
+  flex-grow: 1;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.input.shortUrl {
+  color: #6f42ee;
+}
+
+.button {
+  flex-basis: 130px;
+  flex-shrink: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  font-size: 18px;
+}

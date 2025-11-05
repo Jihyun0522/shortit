@@ -1,0 +1,16 @@
+.page {
+  margin: 111px 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+}
